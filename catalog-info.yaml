@@ -1,0 +1,20 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: sample-spring-boot-appew3
+  title: sample-spring-boot-appew3
+  annotations:
+    circleci.com/project-slug: github/piomin/sample-spring-boot-appew3
+    github.com/project-slug: piomin/sample-spring-boot-appew3
+    sonarqube.org/project-key: piomin_sample-spring-boot-appew3
+  tags:
+    - spring-boot
+    - java
+    - maven
+    - circleci
+    - renovate
+    - sonarqube
+spec:
+  type: service
+  owner: piotr.minkowski@gmail.com
+  lifecycle: experimental
